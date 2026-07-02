@@ -1,0 +1,31 @@
+# ==========================================
+# 1. Backend Custom Targets (FastAPI / Python)
+# ==========================================
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/*.env
+
+# Ignore your local SQLite database file so your clean repo doesn't track local data modifications
+backend/summer_arc.db
+
+# ==========================================
+# 2. Frontend Custom Targets (Flutter)
+# ==========================================
+frontend/.dart_tool/
+frontend/.idea/
+frontend/.packages
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/build/
+
+# IDE / OS specific inside frontend
+frontend/*.iml
+frontend/.vscode/
+
+# ==========================================
+# 3. Global OS exclusions
+# ==========================================
+.DS_Store
+Thumbs.db
